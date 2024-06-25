@@ -10,7 +10,7 @@ body{
     overflow:hidden;
     background-color:cornsilk;
 }
-navbar a{
+.navbar a{
     float: left;
     display: block;
     color: bisque;
@@ -21,4 +21,13 @@ navbar a{
 .navbar a:hover{
     background-color:aquamarine;
     color:dodgerblue
+}
+.header{
+    padding: 80px;
+    text-align: center;
+   background: saddlebrown;
+    color:black
+}
+.header h1{
+font-size: 40px;
 }
