@@ -8,15 +8,15 @@ body{
 }
 .navbar{
     overflow:hidden;
-    background-color:cornsilk;
+    background-color:blueviolet;
 }
 .navbar a{
     float: left;
     display: block;
     color: bisque;
     text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+    padding: 14px 260.85px;
+    text-decoration:none;
 }
 .navbar a:hover{
     background-color:aquamarine;
@@ -25,9 +25,36 @@ body{
 .header{
     padding: 80px;
     text-align: center;
-   background: saddlebrown;
+   background:plum;
     color:black
 }
 .header h1{
 font-size: 40px;
+}
+.row{
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+.side{
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: darkorchid;
+    padding: 24px;
+}
+.main{
+    -ms-flex: 70%;
+    flex:70%;
+    background-color: rgb(228, 239, 196);
+    padding: 20px;
+}
+.hidden{
+    display:none
+}
+.footer{ padding: 20px;
+text-align:center;
+background-color:palevioletred;}
+.footer p{
+    color:violet
 }
