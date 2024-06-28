@@ -1,4 +1,5 @@
-.{
+
+*{
     box-sizing:border-box;
     margin:0;
     padding:0;
@@ -16,7 +17,7 @@ body {
     padding: 80px;
     text-align:center;
     background:plum;
-    color:darksalmon
+    color:darksalmon;
 }
 
 .header h1 {
@@ -25,7 +26,7 @@ body {
 
 .navbar{
     overflow: hidden;
-    background-color:hotpink
+    background-color:hotpink;
 }
 
 .navbar a {
@@ -52,5 +53,111 @@ float:right;
     -ms-flex: 30%;
     flex:30%;
     background-color: coral;
+padding: 20px;
+}
+img{ 
+    width:300px;
+    height:300px;
+}
 
+.main{
+    -ms-flex:70%;
+    flex:70%;
+    background-color: indianred;
+    padding:20px;
+}
+
+.hidden{
+    display:none;
+}
+.footer{
+    padding:20px;
+    text-align: center;
+    background:steelblue;
+}
+
+.container{
+    position:relative;
+    width:1100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:30px;
+}
+
+.container .value-card{
+    position: relative;
+    max-width: 300px;
+    height:150px;
+    background:honeydew;
+    margin:30px,10px;
+    padding: 20px,15px;
+    display:flex;
+    flex-wrap: column;
+    box-shadow: 0 3px 50px seagreen;
+    transition:0.4s, ease-in-out;
+}
+
+.container .value-card:hover{
+height:300px
+}
+
+.container .value-card .value-img{
+    position:relative;
+    width:260px;
+    height:260px;
+    top:60px;
+    left:20px;
+    z-index:1;
+    box-shadow:0 3px 50px pink
+}
+
+.container .value-card .value-img img{
+    max-width: 100%;
+   border-radius: 6px;
+}
+.container .value-card .detail{
+    position: relative;
+    margin-top: -140px;
+    padding:10px 15px;
+    text-align: center;
+    color:aquamarine;
+    font-family: monospace;
+    visibility: hidden;
+    opacity: 0;
+    transition:0.4s ease-in-out;
+}
+.container .value-card:hover .detail{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -50px;
+}
+
+@media screen and (max-width:780px){
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 270;
+        flex-direction: column;
+        position:relative;
+    }
+    .container .value-card{
+        height:120px
+    }
+    .container .value-card .value-img{
+        position: relative;
+        width: 150px;
+        height:200px;
+        top:-30px;
+        left:3px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navbar a{
+        float:none;
+        width:100%
+    }
 }

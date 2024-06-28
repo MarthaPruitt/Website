@@ -1,6 +1,6 @@
 
 *{
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 body{
     font-family: Arial, Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
@@ -41,7 +41,12 @@ font-size: 40px;
     -ms-flex: 30%;
     flex: 30%;
     background-color:pink;
-    padding: 24px;
+    padding: 20px;
+}
+
+img{
+    width:100px;
+    height:100px;
 }
 .main{
     -ms-flex: 70%;
