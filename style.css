@@ -40,13 +40,13 @@ font-size: 40px;
 .side{
     -ms-flex: 30%;
     flex: 30%;
-    background-color: darkorchid;
+    background-color:pink;
     padding: 24px;
 }
 .main{
     -ms-flex: 70%;
     flex:70%;
-    background-color: rgb(228, 239, 196);
+    background-color:gainsboro;
     padding: 20px;
 }
 .hidden{
