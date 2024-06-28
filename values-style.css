@@ -56,8 +56,8 @@ float:right;
 padding: 20px;
 }
 img{ 
-    width:300px;
-    height:300px;
+    width:260px;
+    height:260px;
 }
 
 .main{
@@ -88,15 +88,15 @@ img{
 
 .container .value-card{
     position: relative;
-    max-width: 300px;
+   max-width: 300px;
     height:150px;
     background:honeydew;
-    margin:30px,10px;
-    padding: 20px,15px;
+    margin:30px 10px;
+    padding: 20px 15px;
     display:flex;
     flex-wrap: column;
-    box-shadow: 0 3px 50px seagreen;
-    transition:0.4s, ease-in-out;
+    box-shadow: 0 3px 50px rgb(109, 231, 162);
+    transition:0.3s, ease-in-out;
 }
 
 .container .value-card:hover{
@@ -105,16 +105,18 @@ height:300px
 
 .container .value-card .value-img{
     position:relative;
-    width:260px;
-    height:260px;
-    top:60px;
+    width:300px;
+    height:150px;
+    top:-60px;
     left:20px;
-    z-index:1;
-    box-shadow:0 3px 50px pink
+    z-index: 1;
+    box-shadow:0 3px 50px pink;
+    transition:0.3s, ease-in-out;
 }
 
 .container .value-card .value-img img{
-    max-width: 100%;
+    max-width:100%;
+    max-height: 100%;
    border-radius: 6px;
 }
 .container .value-card .detail{
@@ -122,7 +124,7 @@ height:300px
     margin-top: -140px;
     padding:10px 15px;
     text-align: center;
-    color:aquamarine;
+    color:grey;
     font-family: monospace;
     visibility: hidden;
     opacity: 0;
