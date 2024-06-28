@@ -1,0 +1,76 @@
+!DOCTYPE HTML>
+<html lang="eng"></html>
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width-device-width, inital scale=0">
+    <link rel="stylesheet" type="text/css" href="">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="navbar">
+        <a href="./index.html.html">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">My Values</a>
+        <a href="#">Contact</a>
+        <a href="#" class="right">Blog</a> 
+    </div>
+    <div class="header">
+        <h1>Martha Pruitt</h1>
+        <p> tagline</p>
+    </div>
+
+    <div class="container">
+        <div class="value-card">
+        <img scr="">
+        </div>
+        <div class="detail">
+            <h2> Courage</h2>
+            <p> be brave</p>
+        </div>
+    </div>
+
+    <div class="value-card">
+        <div class="value-img">
+            <img scr="">
+        </div>
+        <div class="detail">
+            <h2>Persitence</h2>
+            <p>Never give up</p>
+        </div>
+    </div>
+
+    <div class="value-card">
+        <div class="value-img">
+            <img scr="">
+        </div>
+        <div class="detail">
+            <h2>Teamwork/h2>
+            <p>Collaborate</p>
+        </div>
+    </div>
+
+    <div class="value-card">
+        <div class="value-img">
+            <img scr="">
+        </div>
+        <div class="detail">
+            <h2>Respect</h2>
+            <p>r-e-s-p-e-c-t</p>
+        </div>
+    </div>
+
+    <div class="value-card">
+        <div class="value-img">
+            <img scr="">
+        </div>
+        <div class="detail">
+            <h2>Trust</h2>
+            <p> it's a gift</p>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <h2>Written by Martha Pruitt, special thanks to Chociest Fruit LLC</h2>
+</div>
+

@@ -58,3 +58,19 @@ background-color:rgb(181, 116, 137);}
 .footer p{
     color:rgb(10, 1, 10)
 }
+
+@media screen and (max-width: 700px) {
+    .row{
+       flex-direction: column;
+    }
+    img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbar a{
+        float:none;
+        width:100%;
+    }
+}
