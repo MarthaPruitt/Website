@@ -30,11 +30,11 @@ body {
 }
 
 .navbar a {
-    float:left;
+    float: left;
     display: block;
-    color:antiquewhite;
-    text-align:center;
-    padding:14px, 20px;
+    color: bisque;
+    text-align: center;
+    padding: 14px 260.85px;
     text-decoration:none;
 }
 
