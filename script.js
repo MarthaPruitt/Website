@@ -6,7 +6,7 @@ animalButton.addEventListener('click',() => {
 animalDiv.classList.toggle("hidden")});
 
 const PowerDiv = document.getElementById("power-div");
-const PowerButton = document.getElementById("show-power")
+const PowerButton = document.getElementById("show-power");
 
 PowerButton.addEventListener('click',() => {
 PowerDiv.classList.toggle("hidden")});
