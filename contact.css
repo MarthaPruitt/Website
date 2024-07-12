@@ -18,13 +18,13 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
-/*
+
 .section-container {
   display: flex;
+  height: 1000px;}
   /*width: 400px;
   height: 1000px;
 }
-*/
 
 /* Profile Section */
 #profile {
@@ -62,7 +62,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  /*align-self: center;*/
+  align-self: center;
 }
 
 #socials-container {
@@ -107,6 +107,7 @@ section {
   background: rgb(204, 127, 146);
   margin: 2rem auto;
   padding: 0.5rem;
+  align-content: center;
 }
 
 .contact-info-container {
@@ -131,10 +132,14 @@ section {
   height: 4rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .navbar a {
     float: none;
     width: 100%;
   }
-}
-
+  .contact-info-upper-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 600px;}
+  }
